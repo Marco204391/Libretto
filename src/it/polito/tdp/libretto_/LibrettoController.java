@@ -56,6 +56,10 @@ import it.polito.tdp.libretto_model.Libretto_model;
 	    		txtmessage.appendText("Codice "+codice+" non trovato \n");
 	    	}else{
 	    		txtmessage.appendText("Codice "+codice+" trovato \n");
+	    		
+	    		txtcod.setText(e.getCodice());
+	    		txttitolo.setText(e.getTitolo());
+	    		txtdocente.setText(e.getDocente());
 	    	}
 	    		
 	    }
